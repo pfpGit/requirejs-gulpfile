@@ -1,1 +1,3 @@
-# requirejs-gulpfile
+# 1.获取资源
+# 2.依赖安装npm i 
+# 3.gulp运行构建

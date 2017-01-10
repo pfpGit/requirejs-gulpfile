@@ -1,0 +1,32 @@
+{
+  "name": "requirejs-example-gulpfile",
+  "version": "0.0.0",
+  "description": "This project shows how to set up a multi-page requirejs-based project that has the following goals:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "volo add",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phated/example-multipage"
+  },
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phated/example-multipage/issues"
+  },
+  "homepage": "https://github.com/phated/example-multipage",
+  "amd": {},
+  "volo": {
+    "baseUrl": "www/js/lib",
+    "dependencies": {
+      "jquery": "github:jquery/jquery/1.7.2"
+    }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "requirejs": "~2.1.10"
+  }
+}
